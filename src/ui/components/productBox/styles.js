@@ -3,7 +3,7 @@ import { Dimensions } from 'react-native';
 const vw = Dimensions.get('window').width;
 const vh = Dimensions.get('window').height;
 
-module.exports = StyleSheet.create({
+const styles = StyleSheet.create({
 
   productImage: {
     width: 0.35 * vw,
@@ -37,3 +37,5 @@ module.exports = StyleSheet.create({
   }
 
 });
+
+export default styles;

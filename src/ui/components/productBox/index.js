@@ -2,9 +2,10 @@ import { Dimensions, Text, View, Image, TouchableOpacity } from 'react-native';
 
 import { useNavigation } from '@react-navigation/native';
 
+import styles from './styles.js';
+
 const ProductBox = ({ data }) => {
 
-  const styles = require('./styles.js');
   const navigation = useNavigation();
 
   return (
